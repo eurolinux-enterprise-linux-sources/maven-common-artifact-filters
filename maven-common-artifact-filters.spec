@@ -1,6 +1,6 @@
 Name:          maven-common-artifact-filters
 Version:       1.4
-Release:       11%{?dist}
+Release:       9%{?dist}
 Summary:       Maven Common Artifact Filters
 License:       ASL 2.0
 Url:           http://maven.apache.org/shared/
@@ -56,13 +56,6 @@ This package contains javadoc for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-11
-- Mass rebuild 2013-12-27
-
-* Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.4-10
-- Rebuild to regenerate API documentation
-- Resolves: CVE-2013-1571
-
 * Thu Apr 11 2013 Michal Srb <msrb@redhat.com> - 1.4-9
 - Enable tests again, they don't cause any trouble anywhere
 
